@@ -50,7 +50,13 @@ namespace TriangleRudnev
         }
         public double Height()
         {
-            return a + b + c;
+            return Surface() * 2 / a;
+        }
+        public double Median()
+        {
+            return (Math.Sqrt(2 * b * b +
+                            2 * c * c -
+                            a * a) / 2);
         }
         public double SemiPerimter()
         {
