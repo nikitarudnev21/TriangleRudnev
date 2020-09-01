@@ -11,7 +11,7 @@ namespace TriangleRudnev
         public double a;
         public double b;
         public double c;
-        public double m;
+        public double h;
         public Triangle()
         {
 
@@ -22,9 +22,19 @@ namespace TriangleRudnev
             b = B;
             c = C;
         }
+        public Triangle(double A, double H)
+        {
+            a = A;
+            h = H;
+        }
+
         public string outputA()
         {
             return Convert.ToString(a);
+        }
+        public string outputH()
+        {
+            return Convert.ToString(h);
         }
         public string outputB()
         {
@@ -35,6 +45,10 @@ namespace TriangleRudnev
             return Convert.ToString(c);
         }
         public double Perimeter()
+        {
+            return a + b + c;
+        }
+        public double Height()
         {
             return a + b + c;
         }
@@ -61,6 +75,11 @@ namespace TriangleRudnev
         {
             get { return c; }
             set { c = value; }
+        }
+        public double GetSetH
+        {
+            get { return h; }
+            set { h = value; }
         }
         public bool ExistTriangle
         {
