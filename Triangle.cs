@@ -11,6 +11,11 @@ namespace TriangleRudnev
         public double a;
         public double b;
         public double c;
+        public double m;
+        public Triangle()
+        {
+
+        }
         public Triangle(double A, double B, double C)
         {
             a = A;
@@ -32,6 +37,10 @@ namespace TriangleRudnev
         public double Perimeter()
         {
             return a + b + c;
+        }
+        public double SemiPerimter()
+        {
+            return Perimeter() / 2;
         }
         public double Surface()
         {
@@ -57,8 +66,8 @@ namespace TriangleRudnev
         {
             get
             {
-                if ((a > b + c) && (b > a + c) && (c > a + b)) return false;
-                else return true;
+                if ((a < b + c) && (b < a + c) && (c < a + b)) return true;
+                else return false;
             }
         }
     }
