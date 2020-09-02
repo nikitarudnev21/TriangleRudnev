@@ -30,17 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnStart = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.listTriangle = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Value = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pictureTriangle = new System.Windows.Forms.PictureBox();
+            this.lblA = new System.Windows.Forms.Label();
+            this.txtA = new System.Windows.Forms.TextBox();
+            this.txtB = new System.Windows.Forms.TextBox();
+            this.lblB = new System.Windows.Forms.Label();
+            this.txtC = new System.Windows.Forms.TextBox();
+            this.lblC = new System.Windows.Forms.Label();
+            this.radio3 = new System.Windows.Forms.RadioButton();
+            this.radio1 = new System.Windows.Forms.RadioButton();
+            this.btnForm2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStart
@@ -52,117 +55,171 @@
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Font = new System.Drawing.Font("Segoe Print", 24.75F);
             this.btnStart.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnStart.Location = new System.Drawing.Point(601, 39);
+            this.btnStart.Location = new System.Drawing.Point(676, 94);
             this.btnStart.Margin = new System.Windows.Forms.Padding(0);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(160, 68);
+            this.btnStart.Size = new System.Drawing.Size(234, 68);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Запуск";
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.UseWaitCursor = true;
             // 
-            // listView1
+            // listTriangle
             // 
-            this.listView1.BackColor = System.Drawing.Color.Tan;
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listTriangle.BackColor = System.Drawing.Color.Tan;
+            this.listTriangle.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
-            this.columnHeader2});
-            this.listView1.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.listView1.Location = new System.Drawing.Point(34, 23);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(319, 155);
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(610, 131);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(162, 150);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.Value});
+            this.listTriangle.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.listTriangle.Location = new System.Drawing.Point(8, 181);
+            this.listTriangle.Name = "listTriangle";
+            this.listTriangle.Size = new System.Drawing.Size(902, 568);
+            this.listTriangle.TabIndex = 1;
+            this.listTriangle.UseCompatibleStateImageBehavior = false;
+            this.listTriangle.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "Поле";
+            this.columnHeader1.Width = 500;
             // 
-            // label1
+            // Value
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.label1.Location = new System.Drawing.Point(93, 203);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 35);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Сторона A:";
+            this.Value.Text = "Значения";
+            this.Value.Width = 414;
             // 
-            // textBox1
+            // pictureTriangle
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(238, 203);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(115, 35);
-            this.textBox1.TabIndex = 4;
+            this.pictureTriangle.Location = new System.Drawing.Point(12, 12);
+            this.pictureTriangle.Name = "pictureTriangle";
+            this.pictureTriangle.Size = new System.Drawing.Size(188, 163);
+            this.pictureTriangle.TabIndex = 2;
+            this.pictureTriangle.TabStop = false;
             // 
-            // textBox2
+            // lblA
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox2.Location = new System.Drawing.Point(238, 249);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(115, 35);
-            this.textBox2.TabIndex = 6;
+            this.lblA.AutoSize = true;
+            this.lblA.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.lblA.Location = new System.Drawing.Point(376, 38);
+            this.lblA.Name = "lblA";
+            this.lblA.Size = new System.Drawing.Size(139, 35);
+            this.lblA.TabIndex = 3;
+            this.lblA.Text = "Сторона A:";
             // 
-            // label2
+            // txtA
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.label2.Location = new System.Drawing.Point(93, 249);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 35);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Сторона B:";
+            this.txtA.BackColor = System.Drawing.SystemColors.Menu;
+            this.txtA.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.txtA.Location = new System.Drawing.Point(521, 38);
+            this.txtA.Multiline = true;
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(115, 35);
+            this.txtA.TabIndex = 4;
             // 
-            // textBox3
+            // txtB
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox3.Location = new System.Drawing.Point(238, 289);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(115, 35);
-            this.textBox3.TabIndex = 8;
+            this.txtB.BackColor = System.Drawing.SystemColors.Menu;
+            this.txtB.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.txtB.Location = new System.Drawing.Point(521, 84);
+            this.txtB.Multiline = true;
+            this.txtB.Name = "txtB";
+            this.txtB.Size = new System.Drawing.Size(115, 35);
+            this.txtB.TabIndex = 6;
             // 
-            // label3
+            // lblB
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.label3.Location = new System.Drawing.Point(93, 289);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 35);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Сторона C:";
+            this.lblB.AutoSize = true;
+            this.lblB.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.lblB.Location = new System.Drawing.Point(376, 84);
+            this.lblB.Name = "lblB";
+            this.lblB.Size = new System.Drawing.Size(138, 35);
+            this.lblB.TabIndex = 5;
+            this.lblB.Text = "Сторона B:";
+            // 
+            // txtC
+            // 
+            this.txtC.BackColor = System.Drawing.SystemColors.Menu;
+            this.txtC.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.txtC.Location = new System.Drawing.Point(521, 124);
+            this.txtC.Multiline = true;
+            this.txtC.Name = "txtC";
+            this.txtC.Size = new System.Drawing.Size(115, 35);
+            this.txtC.TabIndex = 8;
+            // 
+            // lblC
+            // 
+            this.lblC.AutoSize = true;
+            this.lblC.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.lblC.Location = new System.Drawing.Point(376, 124);
+            this.lblC.Name = "lblC";
+            this.lblC.Size = new System.Drawing.Size(137, 35);
+            this.lblC.TabIndex = 7;
+            this.lblC.Text = "Сторона C:";
+            // 
+            // radio3
+            // 
+            this.radio3.AutoSize = true;
+            this.radio3.Checked = true;
+            this.radio3.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.radio3.Location = new System.Drawing.Point(206, 80);
+            this.radio3.Name = "radio3";
+            this.radio3.Size = new System.Drawing.Size(149, 39);
+            this.radio3.TabIndex = 9;
+            this.radio3.TabStop = true;
+            this.radio3.Text = "3 стороны";
+            this.radio3.UseVisualStyleBackColor = true;
+            // 
+            // radio1
+            // 
+            this.radio1.AutoSize = true;
+            this.radio1.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.radio1.Location = new System.Drawing.Point(206, 124);
+            this.radio1.Name = "radio1";
+            this.radio1.Size = new System.Drawing.Size(146, 39);
+            this.radio1.TabIndex = 10;
+            this.radio1.Text = "1 сторона";
+            this.radio1.UseVisualStyleBackColor = true;
+            // 
+            // btnForm2
+            // 
+            this.btnForm2.BackColor = System.Drawing.Color.SaddleBrown;
+            this.btnForm2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.btnForm2.FlatAppearance.BorderColor = System.Drawing.Color.Orange;
+            this.btnForm2.FlatAppearance.BorderSize = 3;
+            this.btnForm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnForm2.Font = new System.Drawing.Font("Segoe Print", 24.75F);
+            this.btnForm2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnForm2.Location = new System.Drawing.Point(680, 19);
+            this.btnForm2.Margin = new System.Windows.Forms.Padding(0);
+            this.btnForm2.Name = "btnForm2";
+            this.btnForm2.Size = new System.Drawing.Size(230, 68);
+            this.btnForm2.TabIndex = 11;
+            this.btnForm2.Text = "2 вариант";
+            this.btnForm2.UseVisualStyleBackColor = false;
+            this.btnForm2.UseWaitCursor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(784, 361);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.listView1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(916, 751);
+            this.Controls.Add(this.btnForm2);
+            this.Controls.Add(this.radio1);
+            this.Controls.Add(this.radio3);
+            this.Controls.Add(this.txtC);
+            this.Controls.Add(this.lblC);
+            this.Controls.Add(this.txtB);
+            this.Controls.Add(this.lblB);
+            this.Controls.Add(this.txtA);
+            this.Controls.Add(this.lblA);
+            this.Controls.Add(this.pictureTriangle);
+            this.Controls.Add(this.listTriangle);
             this.Controls.Add(this.btnStart);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Работа с треугольником";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTriangle)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,16 +228,19 @@
         #endregion
 
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listTriangle;
         private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ColumnHeader Value;
+        private System.Windows.Forms.PictureBox pictureTriangle;
+        private System.Windows.Forms.Label lblA;
+        private System.Windows.Forms.TextBox txtA;
+        private System.Windows.Forms.TextBox txtB;
+        private System.Windows.Forms.Label lblB;
+        private System.Windows.Forms.TextBox txtC;
+        private System.Windows.Forms.Label lblC;
+        private System.Windows.Forms.RadioButton radio3;
+        private System.Windows.Forms.RadioButton radio1;
+        private System.Windows.Forms.Button btnForm2;
     }
 }
 
