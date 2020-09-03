@@ -109,7 +109,7 @@ namespace TriangleRudnev
         }
         public string ImageSource()
         {
-            string source = Application.StartupPath+ "\\" +  "img" + "\\";
+            string source = Application.StartupPath.Remove(Application.StartupPath.IndexOf("bin")).Replace(@"\", "/")+"Properties/img/";
             switch (TriangleType())
             {
                 case "Равносторонний":
@@ -131,7 +131,7 @@ namespace TriangleRudnev
                     source += "acute";
                     break;
             }
-            return source+=".PNG".Replace(@"\", "/");
+            return source+=".PNG";
         }
         public double Side1Surface()
         {

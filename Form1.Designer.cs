@@ -60,7 +60,7 @@
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(234, 68);
             this.btnStart.TabIndex = 0;
-            this.btnStart.Text = "Запуск";
+            this.btnStart.Text = "Вычислить";
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.UseWaitCursor = true;
             // 
@@ -71,6 +71,7 @@
             this.columnHeader1,
             this.Value});
             this.listTriangle.Font = new System.Drawing.Font("Segoe Print", 14.75F);
+            this.listTriangle.HideSelection = false;
             this.listTriangle.Location = new System.Drawing.Point(8, 181);
             this.listTriangle.Name = "listTriangle";
             this.listTriangle.Size = new System.Drawing.Size(902, 568);
@@ -194,7 +195,7 @@
             this.btnForm2.Name = "btnForm2";
             this.btnForm2.Size = new System.Drawing.Size(230, 68);
             this.btnForm2.TabIndex = 11;
-            this.btnForm2.Text = "2 вариант";
+            this.btnForm2.Text = "2 форма";
             this.btnForm2.UseVisualStyleBackColor = false;
             this.btnForm2.UseWaitCursor = true;
             // 
