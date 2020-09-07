@@ -80,9 +80,9 @@ namespace TriangleRudnev
                             lblValuesSideA.Text = triangle.outputA();
                             lblValuesSideB.Text = triangle.outputB();
                             lblValuesSideC.Text = triangle.outputC();
-                            lblValuesPerimeter.Text = Convert.ToString(triangle.Perimeter());
-                            lblValuesSemiPerimeter.Text = Convert.ToString(triangle.SemiPerimter());
-                            lblValuesSurface.Text = Convert.ToString(triangle.Surface());
+                            lblValuesPerimeter.Text = Convert.ToString(Math.Round(triangle.Perimeter(),3));
+                            lblValuesSemiPerimeter.Text = Convert.ToString(Math.Round(triangle.SemiPerimter(),3));
+                            lblValuesSurface.Text = Convert.ToString(Math.Round(triangle.Surface(),3));
                             lblValuesHeight.Text =  Convert.ToString(Math.Round(Convert.ToDouble(triangle.outputH()),3));
                             lblValuesHeightA.Text = Convert.ToString(Math.Round(triangle.hA(),3));
                             lblValuesHeightB.Text = Convert.ToString(Math.Round(triangle.hB(), 3));
@@ -118,7 +118,7 @@ namespace TriangleRudnev
                             Size = new Size(788, 600);
                             lblValuesSideA.Text = triangle.outputA();
                             lblValuesSideB.Text = triangle.outputH();
-                            lblValuesSideC.Text = Convert.ToString(triangle.Side1Surface());
+                            lblValuesSideC.Text = Convert.ToString(Math.Round(triangle.Side1Surface(),3));
                             pictureTriangle.Image = Image.FromFile(triangle.ImageSource());
                         }
                         else
