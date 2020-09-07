@@ -55,10 +55,10 @@
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Font = new System.Drawing.Font("Segoe Print", 24.75F);
             this.btnStart.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnStart.Location = new System.Drawing.Point(676, 94);
+            this.btnStart.Location = new System.Drawing.Point(659, 98);
             this.btnStart.Margin = new System.Windows.Forms.Padding(0);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(234, 68);
+            this.btnStart.Size = new System.Drawing.Size(248, 65);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Вычислить";
             this.btnStart.UseVisualStyleBackColor = false;
@@ -190,10 +190,10 @@
             this.btnForm2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnForm2.Font = new System.Drawing.Font("Segoe Print", 24.75F);
             this.btnForm2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnForm2.Location = new System.Drawing.Point(680, 19);
+            this.btnForm2.Location = new System.Drawing.Point(659, 19);
             this.btnForm2.Margin = new System.Windows.Forms.Padding(0);
             this.btnForm2.Name = "btnForm2";
-            this.btnForm2.Size = new System.Drawing.Size(230, 68);
+            this.btnForm2.Size = new System.Drawing.Size(248, 68);
             this.btnForm2.TabIndex = 11;
             this.btnForm2.Text = "2 форма";
             this.btnForm2.UseVisualStyleBackColor = false;

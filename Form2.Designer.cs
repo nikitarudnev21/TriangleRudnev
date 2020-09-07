@@ -354,7 +354,7 @@
             // 
             this.lblValA.AutoSize = true;
             this.lblValA.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValA.Location = new System.Drawing.Point(32, 55);
+            this.lblValA.Location = new System.Drawing.Point(5, 55);
             this.lblValA.Name = "lblValA";
             this.lblValA.Size = new System.Drawing.Size(139, 35);
             this.lblValA.TabIndex = 25;
@@ -429,7 +429,7 @@
             // 
             this.lblValuesExists.AutoSize = true;
             this.lblValuesExists.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesExists.Location = new System.Drawing.Point(686, 281);
+            this.lblValuesExists.Location = new System.Drawing.Point(645, 281);
             this.lblValuesExists.Name = "lblValuesExists";
             this.lblValuesExists.Size = new System.Drawing.Size(20, 35);
             this.lblValuesExists.TabIndex = 50;
@@ -439,7 +439,7 @@
             // 
             this.lblValuesSpecification.AutoSize = true;
             this.lblValuesSpecification.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesSpecification.Location = new System.Drawing.Point(241, 281);
+            this.lblValuesSpecification.Location = new System.Drawing.Point(217, 281);
             this.lblValuesSpecification.Name = "lblValuesSpecification";
             this.lblValuesSpecification.Size = new System.Drawing.Size(20, 35);
             this.lblValuesSpecification.TabIndex = 49;
@@ -459,7 +459,7 @@
             // 
             this.lblValMedian.AutoSize = true;
             this.lblValMedian.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValMedian.Location = new System.Drawing.Point(289, 213);
+            this.lblValMedian.Location = new System.Drawing.Point(286, 213);
             this.lblValMedian.Name = "lblValMedian";
             this.lblValMedian.Size = new System.Drawing.Size(110, 35);
             this.lblValMedian.TabIndex = 45;
@@ -469,7 +469,7 @@
             // 
             this.lblValExists.AutoSize = true;
             this.lblValExists.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValExists.Location = new System.Drawing.Point(488, 281);
+            this.lblValExists.Location = new System.Drawing.Point(463, 281);
             this.lblValExists.Name = "lblValExists";
             this.lblValExists.Size = new System.Drawing.Size(160, 35);
             this.lblValExists.TabIndex = 47;
@@ -479,7 +479,7 @@
             // 
             this.lblValSpecification.AutoSize = true;
             this.lblValSpecification.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValSpecification.Location = new System.Drawing.Point(32, 281);
+            this.lblValSpecification.Location = new System.Drawing.Point(5, 281);
             this.lblValSpecification.Name = "lblValSpecification";
             this.lblValSpecification.Size = new System.Drawing.Size(180, 35);
             this.lblValSpecification.TabIndex = 46;
@@ -489,7 +489,7 @@
             // 
             this.lblValuesHeight.AutoSize = true;
             this.lblValuesHeight.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesHeight.Location = new System.Drawing.Point(178, 168);
+            this.lblValuesHeight.Location = new System.Drawing.Point(151, 168);
             this.lblValuesHeight.Name = "lblValuesHeight";
             this.lblValuesHeight.Size = new System.Drawing.Size(20, 35);
             this.lblValuesHeight.TabIndex = 44;
@@ -499,7 +499,7 @@
             // 
             this.lblValHeight.AutoSize = true;
             this.lblValHeight.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValHeight.Location = new System.Drawing.Point(32, 168);
+            this.lblValHeight.Location = new System.Drawing.Point(5, 168);
             this.lblValHeight.Name = "lblValHeight";
             this.lblValHeight.Size = new System.Drawing.Size(105, 35);
             this.lblValHeight.TabIndex = 43;
@@ -509,7 +509,7 @@
             // 
             this.lblValuesHeightC.AutoSize = true;
             this.lblValuesHeightC.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesHeightC.Location = new System.Drawing.Point(178, 213);
+            this.lblValuesHeightC.Location = new System.Drawing.Point(149, 213);
             this.lblValuesHeightC.Name = "lblValuesHeightC";
             this.lblValuesHeightC.Size = new System.Drawing.Size(20, 35);
             this.lblValuesHeightC.TabIndex = 42;
@@ -519,7 +519,7 @@
             // 
             this.lblValuesHeightB.AutoSize = true;
             this.lblValuesHeightB.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesHeightB.Location = new System.Drawing.Point(686, 168);
+            this.lblValuesHeightB.Location = new System.Drawing.Point(674, 168);
             this.lblValuesHeightB.Name = "lblValuesHeightB";
             this.lblValuesHeightB.Size = new System.Drawing.Size(20, 35);
             this.lblValuesHeightB.TabIndex = 41;
@@ -549,7 +549,7 @@
             // 
             this.lblValHeightC.AutoSize = true;
             this.lblValHeightC.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValHeightC.Location = new System.Drawing.Point(32, 213);
+            this.lblValHeightC.Location = new System.Drawing.Point(5, 213);
             this.lblValHeightC.Name = "lblValHeightC";
             this.lblValHeightC.Size = new System.Drawing.Size(127, 35);
             this.lblValHeightC.TabIndex = 39;
@@ -569,7 +569,7 @@
             // 
             this.lblValuesSurface.AutoSize = true;
             this.lblValuesSurface.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesSurface.Location = new System.Drawing.Point(686, 112);
+            this.lblValuesSurface.Location = new System.Drawing.Point(674, 112);
             this.lblValuesSurface.Name = "lblValuesSurface";
             this.lblValuesSurface.Size = new System.Drawing.Size(20, 35);
             this.lblValuesSurface.TabIndex = 36;
@@ -589,7 +589,7 @@
             // 
             this.lblValuesPerimeter.AutoSize = true;
             this.lblValuesPerimeter.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesPerimeter.Location = new System.Drawing.Point(178, 112);
+            this.lblValuesPerimeter.Location = new System.Drawing.Point(150, 112);
             this.lblValuesPerimeter.Name = "lblValuesPerimeter";
             this.lblValuesPerimeter.Size = new System.Drawing.Size(20, 35);
             this.lblValuesPerimeter.TabIndex = 34;
@@ -599,7 +599,7 @@
             // 
             this.lblValPerimeter.AutoSize = true;
             this.lblValPerimeter.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValPerimeter.Location = new System.Drawing.Point(32, 112);
+            this.lblValPerimeter.Location = new System.Drawing.Point(5, 112);
             this.lblValPerimeter.Name = "lblValPerimeter";
             this.lblValPerimeter.Size = new System.Drawing.Size(132, 35);
             this.lblValPerimeter.TabIndex = 31;
@@ -629,7 +629,7 @@
             // 
             this.lblValuesSideC.AutoSize = true;
             this.lblValuesSideC.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesSideC.Location = new System.Drawing.Point(686, 55);
+            this.lblValuesSideC.Location = new System.Drawing.Point(674, 55);
             this.lblValuesSideC.Name = "lblValuesSideC";
             this.lblValuesSideC.Size = new System.Drawing.Size(20, 35);
             this.lblValuesSideC.TabIndex = 30;
@@ -649,7 +649,7 @@
             // 
             this.lblValuesSideA.AutoSize = true;
             this.lblValuesSideA.Font = new System.Drawing.Font("Segoe Print", 14.75F);
-            this.lblValuesSideA.Location = new System.Drawing.Point(178, 55);
+            this.lblValuesSideA.Location = new System.Drawing.Point(151, 55);
             this.lblValuesSideA.Name = "lblValuesSideA";
             this.lblValuesSideA.Size = new System.Drawing.Size(20, 35);
             this.lblValuesSideA.TabIndex = 28;

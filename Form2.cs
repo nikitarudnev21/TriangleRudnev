@@ -99,6 +99,7 @@ namespace TriangleRudnev
                         {
                             MessageBox.Show("Заполните поля правильно", "Ошибка",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MyMethods.WrongValuesNumeric(this, new List<NumericUpDown>() { numericA, numericB, numericC });
                         }
                     }
                     else
@@ -124,6 +125,7 @@ namespace TriangleRudnev
                         {
                             MessageBox.Show("Заполните поля правильно", "Ошибка",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MyMethods.WrongValuesNumeric(this, new List<NumericUpDown>() { numericAHeight, numericHeight });
                         }
                     }
                 };

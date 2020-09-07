@@ -16,6 +16,7 @@ namespace TriangleRudnev
         public Form1()
         {
             InitializeComponent();
+            MyMethods.setCursor(this);
             void clearText()
             {
                 txtA.Text = "";
@@ -43,7 +44,7 @@ namespace TriangleRudnev
                 form2.Owner = this;
                 form2.ShowDialog();
             };
-            btnStart.Click += (s, e) =>
+            btnStart.Click +=  (s, e) =>
             {
                 if (radio3.Checked)
                 {
@@ -90,8 +91,7 @@ namespace TriangleRudnev
                     }
                     else
                     {
-                        MessageBox.Show("Заполните поля правильно", "Ошибка",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MyMethods.WrongValues(this, new List<Control>() { txtA, txtB, txtC });
                     }
                 }
                 else if(radio1.Checked)
@@ -110,8 +110,7 @@ namespace TriangleRudnev
                     }
                     else
                     {
-                        MessageBox.Show("Заполните поля правильно", "Ошибка",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MyMethods.WrongValues(this, new List<Control>() { txtA, txtB });
                     }
                 }
             };
