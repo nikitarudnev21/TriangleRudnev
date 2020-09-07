@@ -16,7 +16,6 @@ namespace TriangleRudnev
         public Form1()
         {
             InitializeComponent();
-            MyMethods.setCursor(this);
             void clearText()
             {
                 txtA.Text = "";
